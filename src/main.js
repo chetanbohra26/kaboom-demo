@@ -87,6 +87,7 @@ scene('lose', (score) => {
 
 	//restart game
 	onKeyPress('space', () => go('game'));
+	onClick(() => go('game'));
 });
 
 go('game');
