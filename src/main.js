@@ -31,6 +31,7 @@ scene('game', () => {
 		player.isGrounded() && player.jump(JUMP_FORCE);
 	};
 	onKeyPress('space', jump);
+	onClick(jump);
 
 	function spawnTree() {
 		add([
