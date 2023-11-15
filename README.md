@@ -1,8 +1,11 @@
+# Kaboom demo
+
+A simple game made using Kaboom
+
 # Folder structure
 
-- `src` - source code for your kaboom project
-- `www` - distribution folder, contains your index.html, built js bundle and static assets
-
+-   `src` - source code for your kaboom project
+-   `www` - distribution folder, contains your index.html, built js bundle and static assets
 
 ## Development
 
