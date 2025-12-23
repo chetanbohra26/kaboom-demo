@@ -12,6 +12,8 @@ loadSprite('bean', 'sprites/bean.png');
 scene('game', () => {
 	setGravity(GRAVITY);
 
+	setBackground(135, 206, 235); //sky blue
+
 	//player character
 	const player = add([sprite('bean'), pos(80, 40), area(), body()]);
 
